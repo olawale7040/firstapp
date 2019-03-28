@@ -63,7 +63,7 @@ methods:{
 },
   divide(){
 	this.operator=(a, b) => a/b;
-	operatorClicked=true;
+	this.operatorClicked=true;
 	this.setPrevious();
 
   },
